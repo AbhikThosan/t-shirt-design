@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
-import OrdersTable from "../../features/orderList/components/ordersTable";
 import ordersStore from "../../features/store/ordersStore";
+import OrdersTable from "../../features/orderList/components/OrdersTable";
 
 function Orders() {
   return (
